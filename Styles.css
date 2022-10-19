@@ -77,3 +77,57 @@ h1{
     margin: 2%;
     float: left; 
 }
+@media  (max-width: 858px){
+    #counter{
+        height: 100px;
+        font-size:60px;
+        color:darkgreen;
+    }
+    h1{
+        float: center;
+        display: grid;
+        font-size:60px;
+    }
+    .but{
+        height: 50px;
+        width: 80%;
+        list-style: none;
+        margin-left: 15%;
+        position: relative;
+        float:center;
+    }
+    .inc{
+        position: static;
+        width: 80%;
+        height: 50%;
+        border: 1px solid;
+        border-radius: 5px;
+        padding-left:2%;
+        padding-right:2%;
+        margin: 2%;
+       
+    }
+    /*Reset button style*/
+    .res{
+        position: static;
+        width: 80%;
+        height: 50%;
+        border: 1px solid;
+        border-radius: 5px;
+        padding-left:2%;
+        padding-right:2%;
+        margin: 2%;
+      
+    }
+    /*decrement button style*/
+    .dec{
+        position: static;
+        width: 80%;
+        height: 50%;
+        border: 1px solid;
+        border-radius: 5px;
+        padding-left:2%;
+        padding-right:2%;
+        margin: 2%;
+    }
+}
